@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.main-container {
-  display: flex;
-}
 main {
   padding: 10px;
 }
@@ -22,15 +19,12 @@ main {
   background: rgb(0, 7, 61);
   color: white;
   height: 100vh;
-  overflow-y: auto;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
-.top_section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 10px;
-}
 .logo {
   font-size: 18px;
   line-height: 0;
@@ -43,12 +37,6 @@ main {
   display: none;
 }
 
-.routes {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
 .link {
   display: flex;
   color: white;
