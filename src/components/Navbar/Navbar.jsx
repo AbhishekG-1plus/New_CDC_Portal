@@ -6,17 +6,19 @@ const Navbar = () => {
       <div className="sidebar close">
         <div className="logo-details">
           <i className="bx bxl-cplus-plus"> </i>
-          <span className="logo_name"> IIT CDC</span>
+          {/* <span className="logo_name"> IIT CDC</span> */}
+          <img src="" alt="" />
         </div>
         <ul className="nav-links">
           <li>
             <a href="./">
               <i className="bx bx-grid-alt"> </i>
-              <span className="link_name">Dashboard</span>
             </a>
             <ul className="sub-menu">
               <li>
-                <a  className="link_name" href="./">HTML</a>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
               </li>
               <li>
                 <a href="./">React</a>
@@ -26,18 +28,18 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
-
           <li>
             <div className="icon-link">
               <a href="./">
                 <i className="bx bx-collection"> </i>
-                <span className="link_name">Category</span>
               </a>
-              <i className="bx bxs-chevron-down arrow"></i>
+              {/* <i className="bx bxs-chevron-down arrow"></i> */}
             </div>
             <ul className="sub-menu">
               <li>
-                <a  className="link_name" href="./">Web Developer</a>
+                <a className="link_name" href="./">
+                  Web Developer
+                </a>
               </li>
               <li>
                 <a href="./">App Developer</a>
@@ -47,18 +49,121 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
-
           <li>
             <div className="icon-link">
               <a href="./">
                 <i className="bx bx-collection"> </i>
-                <span className="link_name">Posts</span>
               </a>
-              <i className="bx bxs-chevron-down"></i>
+              {/* <i className="bx bxs-chevron-down"></i> */}
             </div>
             <ul className="sub-menu">
               <li>
-                <a  className="link_name" href="./">HTML</a>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a href="./">React</a>
+              </li>
+              <li>
+                <a href="./">Card Design</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div className="icon-link">
+              <a href="./">
+                <i className="bx bx-collection"> </i>
+              </a>
+              {/* <i className="bx bxs-chevron-down"></i> */}
+            </div>
+            <ul className="sub-menu">
+              <li>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a href="./">React</a>
+              </li>
+              <li>
+                <a href="./">Card Design</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div className="icon-link">
+              <a href="./">
+                <i className="bx bx-collection"> </i>
+              </a>
+              {/* <i className="bx bxs-chevron-down"></i> */}
+            </div>
+            <ul className="sub-menu">
+              <li>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a href="./">React</a>
+              </li>
+              <li>
+                <a href="./">Card Design</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div className="icon-link">
+              <a href="./">
+                <i className="bx bx-collection"> </i>
+              </a>
+            </div>
+            <ul className="sub-menu">
+              <li>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a href="./">React</a>
+              </li>
+              <li>
+                <a href="./">Card Design</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div className="icon-link">
+              <a href="./">
+                <i className="bx bx-collection"> </i>
+              </a>
+            </div>
+            <ul className="sub-menu">
+              <li>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a href="./">React</a>
+              </li>
+              <li>
+                <a href="./">Card Design</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div className="icon-link">
+              <a href="./">
+                <i className="bx bx-collection"> </i>
+              </a>
+              {/* <i className="bx bxs-chevron-down"></i> */}
+            </div>
+            <ul className="sub-menu">
+              <li>
+                <a className="link_name" href="./">
+                  HTML
+                </a>
               </li>
               <li>
                 <a href="./">React</a>

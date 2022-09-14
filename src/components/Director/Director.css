@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.director-column{
+    background-color: #f6f9f8;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+.dir-heading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 16px;
+  color: #005134;
+}
+
+.diroimg {
+  border-radius: 50%;
+  background: #f6f9f8;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
+    5px 5px 10px rgba(214, 217, 216, 0.22);
+  border-radius: 50%;
+  padding:30px;
+}
+.diroimg img {
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+
+}
+.dir-name h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 10px;
+  color: #005134;
+}
+.dir-message h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 16px;
+    color: #005134;
+    text-align: center;
+    margin: 20px 0;;
+    padding: 3px;
+}

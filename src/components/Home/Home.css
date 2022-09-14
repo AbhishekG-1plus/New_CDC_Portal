@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.front-background-img{
+    display:flex;
+    background-image:url("../../img/bg1.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat:no-repeat;
+}
+.bottom-components{
+    margin-left:8%;
+}
+
+
+    

@@ -1,0 +1,38 @@
+.diroimg {
+    display: flex;
+    box-shadow: -8px -8px 10px #FFFFFF, 4px 4px 10px rgba(227, 227, 227, 0.44);
+    background-color: #FBFBFB;
+    flex-direction: column;
+    padding: 1ch;
+    justify-content: center;
+    
+}
+.diropic{
+    position: relative;
+    top:1px;
+    right: -160px;
+}
+
+.conatainer2{
+    /* display: flex; */
+    align-items: row;
+    justify-content: flex-start;
+    padding: 1ch;
+    background-color: #FBFBFB;
+    border-width: 100px;
+    border: black;
+}
+
+
+
+.item3{
+    display: flex;
+    box-shadow: -8px -8px 10px #FFFFFF, 4px 4px 10px rgba(227, 227, 227, 0.44);
+    background-color: #FBFBFB;
+    padding: 0;
+}
+.Message{
+    position: relative;
+    top:1px;
+    right: -400px;
+}
