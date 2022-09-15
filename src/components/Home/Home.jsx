@@ -5,6 +5,9 @@ import About from "../About/About";
 import "./Home.css";
 import Gallery from "../Gallary/Gallery.jsx";
 import Director from "../Director/Director";
+import CardSlider from "../Slider/Slider";
+import Testimonals from "../Testimonals/Testimonals";
+
 
 const Home = () => {
   return (
@@ -16,6 +19,8 @@ const Home = () => {
           <About />
            <Director />
            {/* <Gallery /> */}
+           <CardSlider/>
+           <Testimonals/>
         </div>
       </div>
     </>

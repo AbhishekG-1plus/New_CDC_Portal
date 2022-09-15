@@ -17,14 +17,17 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  HOME
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">ABOUT US</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
+                <a href="./">DIRECTOR'S MESSAGE</a>
+              </li>
+              <li>
+                <a href="./">CHAIRMAN'S MESSAGE</a>
               </li>
             </ul>
           </li>
@@ -38,14 +41,20 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  Web Developer
+                  ACADEMICS
                 </a>
               </li>
               <li>
-                <a href="./">App Developer</a>
+                <a href="./">PROGRAMMES</a>
               </li>
               <li>
-                <a href="./">Ios Developer</a>
+                <a href="./">COURSE HIGHLIGHTS</a>
+              </li>
+              <li>
+                <a href="./">GRADE SYSTEM</a>
+              </li>
+              <li>
+                <a href="./">ADMISSION PROCEDURE</a>
               </li>
             </ul>
           </li>
@@ -59,14 +68,20 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  STUDENTS
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">STUDENT CORNER</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
+                <a href="./">ACHIEVEMENTS</a>
+              </li>
+              <li>
+                <a href="./">REGISTRATION PROCEDURE</a>
+              </li>
+              <li>
+                <a href="./">CAREER DEVELOPMENT ACTIVITY</a>
               </li>
             </ul>
           </li>
@@ -80,15 +95,25 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  RECRUITER
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">WHY RECURIT?</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
+                <a href="./">BROCHURE</a>
               </li>
+              <li>
+                <a href="./">PLACEMENT STATISTICS </a>
+              </li>
+              <li>
+                <a href="./">PLACEMENT PROCEDURE</a>
+              </li>
+              <li>
+                <a href="./">PAST REDRUITERS</a>
+              </li>
+          
             </ul>
           </li>
           <li>
@@ -96,39 +121,19 @@ const Navbar = () => {
               <a href="./">
                 <i className="bx bx-collection"> </i>
               </a>
-              {/* <i className="bx bxs-chevron-down"></i> */}
+             
             </div>
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  FORMS
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">JAF</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <div className="icon-link">
-              <a href="./">
-                <i className="bx bx-collection"> </i>
-              </a>
-            </div>
-            <ul className="sub-menu">
-              <li>
-                <a className="link_name" href="./">
-                  HTML
-                </a>
-              </li>
-              <li>
-                <a href="./">React</a>
-              </li>
-              <li>
-                <a href="./">Card Design</a>
+                <a href="./">IAF</a>
               </li>
             </ul>
           </li>
@@ -141,14 +146,17 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  CDC-TEAM
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">CONTACT US</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
+                <a href="./">PLACEMENT TEAM</a>
+              </li>
+              <li>
+                <a href="./">CAREER COUNSELLING <br/> COMMITTEE  MEMBERS </a>
               </li>
             </ul>
           </li>
@@ -157,19 +165,18 @@ const Navbar = () => {
               <a href="./">
                 <i className="bx bx-collection"> </i>
               </a>
-              {/* <i className="bx bxs-chevron-down"></i> */}
             </div>
             <ul className="sub-menu">
               <li>
                 <a className="link_name" href="./">
-                  HTML
+                  LOGIN
                 </a>
               </li>
               <li>
-                <a href="./">React</a>
+                <a href="./">RECRUITER LOGIN</a>
               </li>
               <li>
-                <a href="./">Card Design</a>
+                <a href="./">STUDENT LOGIN</a>
               </li>
             </ul>
           </li>
