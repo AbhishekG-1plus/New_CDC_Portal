@@ -27,7 +27,7 @@ const CardSlider = () => {
       // // border: "1px solid red",
       // marginBottom: "70px",
       // padding: "20px",
-      height: "210px",
+      height: "260px",
       boxShadow: "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
       display: "flex",
       justifyContent: "center",
@@ -41,8 +41,102 @@ const CardSlider = () => {
         interval={1000}
         mouseTracking={true}
         infinite={true}
+        disableButtonsControls={false}
+        disableDotsControls={true}
 
       >
+        <Paper 
+          sx={{
+            height: "170px",
+            width: "170px",
+            backgroundColor: "#FAFAFA",
+            boxShadow:
+              "inset -5px -5px 20px #FFFFFF, inset 5px 5px 20px rgba(0, 0, 0, 0.06)",
+            borderRadius: "5px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            // border:'1px solid black',
+          }}
+        >
+          <Card
+            sx={{
+              height: "100px",
+              width: "100px",
+              backgroundColor: "white",
+              display: "flex",
+              borderRadius: "5px",
+              justifyContent: "center",
+              alignItems: "center",
+              boxShadow:
+                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+            }}
+          >
+            <Card
+              sx={{
+                height: "60px",
+                width: "60px",
+                backgroundColor: "white",
+                display: "flex",
+                borderRadius: "5px",
+                justifyContent: "center",
+                alignItems: "center",
+
+              }}>
+              <img
+                src="https://www.freepnglogos.com/uploads/microsoft-logos-png-images-24.png"
+                alt="microsoft logos png images"
+                width="100%"
+              />
+            </Card>
+          </Card>
+        </Paper>
+        <Paper className='center'
+          sx={{
+            height: "170px",
+            width: "170px",
+            backgroundColor: "#FAFAFA",
+            boxShadow:
+              "inset -5px -5px 20px #FFFFFF, inset 5px 5px 20px rgba(0, 0, 0, 0.06)",
+            borderRadius: "5px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            // border:'1px solid black',
+          }}
+        >
+          <Card
+            sx={{
+              height: "100px",
+              width: "100px",
+              backgroundColor: "white",
+              display: "flex",
+              borderRadius: "5px",
+              justifyContent: "center",
+              alignItems: "center",
+              boxShadow:
+                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+            }}
+          >
+            <Card
+              sx={{
+                height: "60px",
+                width: "60px",
+                backgroundColor: "white",
+                display: "flex",
+                borderRadius: "5px",
+                justifyContent: "center",
+                alignItems: "center",
+
+              }}>
+              <img
+                src="https://www.freepnglogos.com/uploads/microsoft-logos-png-images-24.png"
+                alt="microsoft logos png images"
+                width="100%"
+              />
+            </Card>
+          </Card>
+        </Paper>
         <Paper className='center'
           sx={{
             height: "170px",
