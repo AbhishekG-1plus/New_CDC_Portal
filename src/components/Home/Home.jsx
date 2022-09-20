@@ -7,6 +7,7 @@ import Gallery from "../Gallary/Gallery.jsx";
 import Director from "../Director/Director";
 import CardSlider from "../Slider/Slider";
 import Testimonals from "../Testimonals/Testimonals";
+import News from "../News/News";
 
 
 const Home = () => {
@@ -17,10 +18,12 @@ const Home = () => {
         <div className="front-background-img"></div>
         <div className="bottom-components">
           <About />
+          <News/>
            <Director />
            {/* <Gallery /> */}
            <CardSlider/>
            <Testimonals/>
+          
         </div>
       </div>
     </>

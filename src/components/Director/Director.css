@@ -6,6 +6,7 @@
     background-color: #f6f9f8;
     margin-bottom: 3%;
     padding-bottom: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .dir-heading h2 {
   font-family: "Poppins";
@@ -19,8 +20,8 @@
 .diroimg {
   border-radius: 50%;
   background: #f6f9f8;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
-    5px 5px 10px rgba(214, 217, 216, 0.22);
+  box-shadow: -5px -5px 3px rgba(255, 255, 255, 0.6),
+    8px 8px 12px rgba(214, 217, 216, 0.22);
   border-radius: 50%;
   padding:30px;
 }

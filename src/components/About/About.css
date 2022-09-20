@@ -1,40 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
 .about-us-page {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  padding-bottom: 4%;
+  padding-bottom: 7%;
   /* height:110vh; */
 }
-.about-us-image-col{
-    background-color: #fbfbfb;
-    padding-bottom:3%;
+.about-us-image-col {
+  background-color: #fbfbfb;
+  padding: 3% 0;
+  
 }
 .about-heading h1 {
-  font-weight: 250;
+  font-weight: 300;
   font-size: 28px;
   color: #005134;
   line-height: 19px;
   margin-top: 19px;
   padding: 5px;
+  /* font-family: Larsseit-Bold,sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Roboto Slab", serif; */
 }
 .about-col-cards {
   background-color: #fbfbfb;
 }
 
-#roundedicon1{
+#roundedicon1 {
   color: #ff7a00;
 }
-#roundedicon2{
+#roundedicon2 {
   color: #d7682a;
 }
-#roundedicon3{
+#roundedicon3 {
   color: #b63829;
 }
 .iconschool {
   /* border: 1px solid red; */
   border-radius: 50%;
   background: #fbfbfb;
-  box-shadow: -8px -8px 10px #ffffff, 4px 4px 10px rgba(227, 227, 227, 0.44);
+  box-shadow: -7px -7px 5px #ffffff, 6px 6px 10px rgba(227, 227, 227, 0.44);
   padding: 20px;
 }
 .about-col-image {
@@ -50,14 +56,14 @@
   line-height: 16px;
   color: #005134;
   text-align: center;
-  margin: 20px 0;;
+  margin: 20px 0;
   padding: 3px;
 }
 .about-col-info p {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
-    color: #8e8e8e;
-    padding:3px 20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #8e8e8e;
+  padding: 3px 20px;
 }

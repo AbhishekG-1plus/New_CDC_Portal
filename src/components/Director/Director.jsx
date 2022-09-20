@@ -1,7 +1,6 @@
 import React from "react";
 import "./Director.css";
 import Grid from "@mui/material/Grid";
-import Avatar from "@mui/material/Avatar";
 import dirophoto from "../../img/Diro_IITJ.jpeg";
 
 

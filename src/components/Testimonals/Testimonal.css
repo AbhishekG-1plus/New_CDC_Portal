@@ -1,7 +1,20 @@
-.alumini_container{
-    /* display: flex;
-    justify-content:center;
-    flex-direction:column;
-    align-items:center; */
-    margin-bottom:30px;
+.Alumini_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 10px;
+  text-align: center;
+  color: #005134;
+}
+
+.Alumini_data {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 9px;
+  color: #005134;
+  padding: 5px;
+  text-align: center;
 }

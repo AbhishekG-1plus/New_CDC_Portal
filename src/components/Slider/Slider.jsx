@@ -1,13 +1,11 @@
 
 import React from 'react';
-import { useState } from 'react';
 import Paper from '@mui/material/Paper';
 import Card from '@mui/material/Card';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 const CardSlider = () => {
-  const [activeItemIndex, setActiveItemIndex] = useState(0);
   var responsive = {
 
     0: { items: 1 },
@@ -18,17 +16,10 @@ const CardSlider = () => {
   }
   return (
     <Card sx={{
-      // height: "250px",
-      // display: "flex",
-      // flexDirection: "column",
-      // justifyContent: "center",
-      // backgroundColor: "#fff",
-      // alignItems: "center",
-      // // border: "1px solid red",
-      // marginBottom: "70px",
-      // padding: "20px",
+      backgroundColor: "#fff",
       height: "260px",
-      boxShadow: "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+      // boxShadow: "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+      boxShadow:"none",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -38,12 +29,12 @@ const CardSlider = () => {
       <AliceCarousel
         autoPlay
         responsive={responsive}
-        interval={1000}
+        // interval={1}
+        autoPlayInterval={1100}
         mouseTracking={true}
         infinite={true}
         disableButtonsControls={false}
         disableDotsControls={true}
-
       >
         <Paper 
           sx={{
@@ -229,146 +220,6 @@ const CardSlider = () => {
             </Card>
           </Card>
         </Paper>
-        <Paper className='center'
-          sx={{
-            height: "170px",
-            width: "170px",
-            backgroundColor: "#FAFAFA",
-            boxShadow:
-              "inset -5px -5px 20px #FFFFFF, inset 5px 5px 20px rgba(0, 0, 0, 0.06)",
-            borderRadius: "5px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            // border:'1px solid black',
-          }}
-        >
-          <Card
-            sx={{
-              height: "100px",
-              width: "100px",
-              backgroundColor: "white",
-              display: "flex",
-              borderRadius: "5px",
-              justifyContent: "center",
-              alignItems: "center",
-              boxShadow:
-                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-            }}
-          >
-            <Card
-              sx={{
-                height: "60px",
-                width: "60px",
-                backgroundColor: "white",
-                display: "flex",
-                borderRadius: "5px",
-                justifyContent: "center",
-                alignItems: "center",
-
-              }}>
-              <img
-                src="https://www.freepnglogos.com/uploads/microsoft-logos-png-images-24.png"
-                alt="microsoft logos png images"
-                width="100%"
-              />
-            </Card>
-          </Card>
-        </Paper>
-        <Paper className='center'
-          sx={{
-            height: "170px",
-            width: "170px",
-            backgroundColor: "#FAFAFA",
-            boxShadow:
-              "inset -5px -5px 20px #FFFFFF, inset 5px 5px 20px rgba(0, 0, 0, 0.06)",
-            borderRadius: "5px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            // border:'1px solid black',
-          }}
-        >
-          <Card
-            sx={{
-              height: "100px",
-              width: "100px",
-              backgroundColor: "white",
-              display: "flex",
-              borderRadius: "5px",
-              justifyContent: "center",
-              alignItems: "center",
-              boxShadow:
-                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-            }}
-          >
-            <Card
-              sx={{
-                height: "60px",
-                width: "60px",
-                backgroundColor: "white",
-                display: "flex",
-                borderRadius: "5px",
-                justifyContent: "center",
-                alignItems: "center",
-
-              }}>
-              <img
-                src="https://www.freepnglogos.com/uploads/microsoft-logos-png-images-24.png"
-                alt="microsoft logos png images"
-                width="100%"
-              />
-            </Card>
-          </Card>
-        </Paper>
-        <Paper className='center'
-          sx={{
-            height: "170px",
-            width: "170px",
-            backgroundColor: "#FAFAFA",
-            boxShadow:
-              "inset -5px -5px 20px #FFFFFF, inset 5px 5px 20px rgba(0, 0, 0, 0.06)",
-            borderRadius: "5px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            // border:'1px solid black',
-          }}
-        >
-          <Card
-            sx={{
-              height: "100px",
-              width: "100px",
-              backgroundColor: "white",
-              display: "flex",
-              borderRadius: "5px",
-              justifyContent: "center",
-              alignItems: "center",
-              boxShadow:
-                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-            }}
-          >
-            <Card
-              sx={{
-                height: "60px",
-                width: "60px",
-                backgroundColor: "white",
-                display: "flex",
-                borderRadius: "5px",
-                justifyContent: "center",
-                alignItems: "center",
-
-              }}>
-              <img
-                src="https://www.freepnglogos.com/uploads/microsoft-logos-png-images-24.png"
-                alt="microsoft logos png images"
-                width="100%"
-              />
-            </Card>
-          </Card>
-        </Paper>
-
-
       </AliceCarousel>
     </Card>
   )

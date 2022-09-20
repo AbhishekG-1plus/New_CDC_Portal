@@ -2,3 +2,6 @@
 .company_wrapper{
     background-color:#FBFBFB;
 }
+.alice-carousel__next-btn{
+    display: none !important;
+}
