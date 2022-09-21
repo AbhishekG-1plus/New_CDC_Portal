@@ -17,13 +17,7 @@
   margin-left:0;
   z-index: 2;
 }
-.sidebar .logo-details{
-  height: 60px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  /* position: relative; */
-}
+
 .sidebar .logo-details i{
     font-size:30px;
     color: #fff;
@@ -129,3 +123,15 @@
     transform:translate(-50%) ;
 }
 
+.logo-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.logo-details img{
+    filter: brightness(0) invert(1);
+    width:40px;
+    height:auto;
+    margin-top: 7px;
+}

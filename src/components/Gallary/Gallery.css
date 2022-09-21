@@ -1,27 +1,22 @@
-.Gallery{
-    background: #FFF8F0;
-    padding: 20px;
-     border-radius: 10px;
-     margin-top: 3%;
-     margin-bottom: 5%;
+.Gallery {
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5%;
 }
 
-.heading-Gallery{
-
-  position: relative;
-  top: -15px;
-  left: 10px;
-
-  font-family: "Poppins";
-  font-style: normal;
+.gallery-heading h1{
   font-weight: 300;
-  font-size: 30px;
-  line-height: 16px;
+  font-size: 28px;
   color: #005134;
-    
+  line-height: 19px;
+  margin-top: 19px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3%;
 }
 
 .item {
-  width: 1500px;
-  height: 500px;
+  width: 100%;
+  height: 387px;
 }

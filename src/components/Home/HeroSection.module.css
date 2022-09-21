@@ -1,13 +1,9 @@
 .hero_container {
-    background: linear-gradient(
-        to top,
-        #070f29da,
-        rgba(25, 34, 61, 0.623) 20%,
-        rgba(84, 103, 161, 0.39),
-        rgba(255, 255, 255, 0)
-      ),
+    background: linear-gradient(116.09deg, 
+                     rgba(12, 69, 0, 0.5) 16.29%,
+                    rgba(119, 57, 0, 0.5) 77.25%),
       url('../../img/bg1.png') center center/cover no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -178,4 +174,5 @@
       font-size: 14px;
     }
   }
+  
   

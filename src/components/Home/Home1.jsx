@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
-import iitjKogo from '../../img/iitjKogo.png';
+import iitjlogo from '../../img/iitjlogo.png';
 import cdclogo from '../../img/cdclogo.png';
 import FadeInWhenVisible from '../Animation/FadeIn';
 import FadeUpWhenVisible from '../Animation/FadeUp';
@@ -9,7 +9,7 @@ function Home1() {
     <div className={styles.hero_container}>
       <div className={styles.logo}>
         <FadeInWhenVisible>
-          <img className={styles.iitj_logo} src={iitjKogo} alt="logo" />
+          <img className={styles.iitj_logo} src={iitjlogo} alt="logo" />
           <img className={styles.cdc_logo} src={cdclogo} alt="logo" />
         </FadeInWhenVisible>
       </div>

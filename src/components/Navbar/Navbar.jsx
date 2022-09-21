@@ -7,14 +7,15 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import "./style.css";
+import cdclogo from '../../img/cdclogo.png'
+import iitjlogo from '../../img/iitjlogo.png'
 const Navbar = () => {
   return (
     <>
       <div className="sidebar close">
         <div className="logo-details">
-          <i className="bx bxl-cplus-plus"> </i>
-          {/* <span className="logo_name"> IIT CDC</span> */}
-          <img src="" alt="" />
+          <img src={cdclogo} alt=""  />
+          <img src={iitjlogo} alt=""  />
         </div>
         <ul className="nav-links">
           <li>

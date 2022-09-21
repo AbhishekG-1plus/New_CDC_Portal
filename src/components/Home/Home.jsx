@@ -5,11 +5,10 @@ import "./Home.css";
 import Gallery from "../Gallary/Gallery.jsx";
 import Director from "../Director/Director";
 import CardSlider from "../Slider/Slider";
+import Footer from '../Footer/Footer'
 import Testimonals from "../Testimonals/Testimonals";
 import News from "../News/News";
 import Home1 from './Home1'
-
-
 const Home = () => {
   return (
     <>
@@ -17,15 +16,14 @@ const Home = () => {
       <div className="app_wrapper">
       <Home1/>
         <div className="bottom-components">
-         
           <About />
           <News/>
           <Director />
-           <Gallery />
+          <Gallery />
           <CardSlider/>
           <Testimonals/>
-          
         </div>
+      <Footer/> 
       </div>
     </>
   );
