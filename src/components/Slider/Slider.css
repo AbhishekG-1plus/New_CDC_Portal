@@ -1,7 +1,22 @@
 
-.company_wrapper{
-    background-color:#FBFBFB;
+.past-recruiter-container{
+    margin-bottom:5%;
 }
 .alice-carousel__next-btn{
     display: none !important;
+}
+.alice-carousel__prev-btn{
+    display: none !important;
+}
+
+.past-recuiters h1{
+    font-weight: 300;
+    font-size: 28px;
+    color: #005134;
+    line-height: 19px;
+    margin-top: 19px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+   
 }

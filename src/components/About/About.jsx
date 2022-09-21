@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
+import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
+import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import Grid from "@mui/material/Grid";
 
 
@@ -39,7 +41,7 @@ const About = () => {
             <div className="about-col-cards">
                  {/* ----Image--- */}
                 <div className="about-col-image">
-                  <SchoolRoundedIcon
+                  <MilitaryTechIcon
                     className="iconschool"
                     id="roundedicon2"
                     // color="success"
@@ -60,7 +62,7 @@ const About = () => {
             <div className="about-col-cards">
                  {/* ----Image--- */}
                 <div className="about-col-image">
-                  <SchoolRoundedIcon
+                  <LocalLibraryIcon
                     className="iconschool"
                     id="roundedicon3"
                     // color="success"

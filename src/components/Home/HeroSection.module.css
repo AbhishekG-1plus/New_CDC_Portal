@@ -1,0 +1,181 @@
+.hero_container {
+    background: linear-gradient(
+        to top,
+        #070f29da,
+        rgba(25, 34, 61, 0.623) 20%,
+        rgba(84, 103, 161, 0.39),
+        rgba(255, 255, 255, 0)
+      ),
+      url('../../img/bg1.png') center center/cover no-repeat;
+    background-size: auto;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 1000px 0 0px rgba(0, 0, 0, 0);
+    object-fit: contain;
+  }
+  
+  .hero_container > h1 {
+    color: rgb(235, 232, 232);
+    font-size: 70px;
+    margin-top: -30px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .hero_container > p {
+    margin-top: 18px;
+    color: rgb(255, 253, 253);
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .hero_btns {
+    margin-top: 32px;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hero_container .hero_btns .btn {
+    margin: 25px;
+    height: 70px;
+    padding: 8px 40px;
+    transition: transform 0.2s;
+    font-size: 22px;
+    border-radius: 25px;
+  }
+  
+  .logo {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .iitj_logo {
+    width: 180px;
+    height: 190px;
+    padding-left: 10px;
+  }
+  
+  .cdc_logo {
+    width: 190px;
+    height: 190px;
+    padding-left: 10px;
+  }
+  
+  .hero_btns .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (min-width: 420px) {
+    .logo {
+      background: #f0f8ffa3;
+      border-radius: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 970px) {
+    .hero_container > h1 {
+      font-size: 70px;
+      margin-top: -60px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 868px) {
+    .hero_container > h1 {
+      font-size: 50px;
+      margin-top: -10px;
+      text-align: center;
+    }
+  
+    .hero_container > p {
+      font-size: 30px;
+    }
+  
+    .btn_mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 85%;
+      font-size: 20px;
+    }
+  
+    .logo img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .hero_container > h1 {
+      font-size: 32px;
+      margin-top: -5px;
+      text-align: center;
+    }
+  
+    .hero_container > p {
+      font-size: 21px;
+    }
+  
+    .btn_mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 85%;
+    }
+  
+    .hero_btns .btn {
+      margin: 20px;
+      height: 50px;
+      padding: 8px 20px;
+      transition: transform 0.2s;
+      font-size: 15px;
+      border-radius: 25px;
+    }
+  
+    .logo img {
+      margin-top: -5px;
+      margin-bottom: -60px;
+      width: 100px;
+      height: 100px;
+    }
+    .iitj_logo {
+      background: #f0f8ffa3;
+      padding: 14px;
+    }
+    .cdc_logo {
+      background: #f0f8ffa3;
+      padding: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .hero_container > h1 {
+      font-size: 25px;
+      margin-top: 10px;
+    }
+  
+    .hero_container > p {
+      font-size: 16px;
+    }
+  
+    .hero_btns .btn {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,13 +1,13 @@
 .new_container {
-  height: 280px;
+  height: 380px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: center; 
   flex-direction: column;
   background: #f4fffb;
   padding: 10px;
-  /* margin:10px 0; */
-  margin-bottom:6%;
+  flex-wrap: wrap;
+  margin-bottom:7%;
 }
 
 .news_heading {
@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:18px 0;
+  margin: 5px 0;
 }
 .news_rectangle {
   width: 400px;
@@ -56,28 +56,20 @@
   padding: 3px;
 }
 .news-descrp {
-  /* font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 15px;
-  color: #005134;
-  text-align: center;
-  padding: 3px; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 19px;
   color: #005134;
   padding: 5px;
-  text-align: center;
+  /* text-align: center; */
   
 }
 
 .inner_card_container {
-  height: 200px;
-  width: 80%;
+  height: 251px;
+  width: 85%;
   box-shadow: 10px 10px 20px rgba(45, 165, 134, 0.06);
   background: #f4fffb;
   padding: 10px;
@@ -86,7 +78,7 @@
 }
 
 .outer_card_container {
-  height: 230px;
+  height: 290px;
   width: 30%;
   background: #f4fffb;
   box-shadow: inset 10px 10px 20px rgba(45, 165, 134, 0.06);

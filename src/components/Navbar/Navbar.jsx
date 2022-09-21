@@ -1,4 +1,11 @@
 import React from "react";
+import HomeIcon from '@mui/icons-material/Home';
+import SchoolIcon from '@mui/icons-material/School';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import BusinessIcon from '@mui/icons-material/Business';
+import GroupsIcon from '@mui/icons-material/Groups';
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import "./style.css";
 const Navbar = () => {
   return (
@@ -12,7 +19,7 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <a href="./">
-              <i className="bx bx-grid-alt"> </i>
+              <i className="bx"><HomeIcon/> </i>
             </a>
             <ul className="sub-menu">
               <li>
@@ -34,7 +41,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx"><SchoolIcon/> </i>
               </a>
               {/* <i className="bx bxs-chevron-down arrow"></i> */}
             </div>
@@ -61,7 +68,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx"><PersonOutlineIcon/></i>
               </a>
               {/* <i className="bx bxs-chevron-down"></i> */}
             </div>
@@ -88,7 +95,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx"> <BusinessIcon/> </i>
               </a>
               {/* <i className="bx bxs-chevron-down"></i> */}
             </div>
@@ -119,7 +126,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx"><ListAltIcon/></i>
               </a>
              
             </div>
@@ -140,7 +147,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx"><GroupsIcon/> </i>
               </a>
             </div>
             <ul className="sub-menu">
@@ -163,7 +170,7 @@ const Navbar = () => {
           <li>
             <div className="icon-link">
               <a href="./">
-                <i className="bx bx-collection"> </i>
+                <i className="bx "><ExitToAppIcon/> </i>
               </a>
             </div>
             <ul className="sub-menu">

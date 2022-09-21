@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import bg1 from "../../img/bg1.png";
 import About from "../About/About";
 import "./Home.css";
 import Gallery from "../Gallary/Gallery.jsx";
@@ -8,6 +7,7 @@ import Director from "../Director/Director";
 import CardSlider from "../Slider/Slider";
 import Testimonals from "../Testimonals/Testimonals";
 import News from "../News/News";
+import Home1 from './Home1'
 
 
 const Home = () => {
@@ -15,14 +15,15 @@ const Home = () => {
     <>
       <Navbar />
       <div className="app_wrapper">
-        <div className="front-background-img"></div>
+      <Home1/>
         <div className="bottom-components">
+         
           <About />
           <News/>
-           <Director />
-           {/* <Gallery /> */}
-           <CardSlider/>
-           <Testimonals/>
+          <Director />
+           <Gallery />
+          <CardSlider/>
+          <Testimonals/>
           
         </div>
       </div>

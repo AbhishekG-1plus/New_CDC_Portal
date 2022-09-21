@@ -7,6 +7,9 @@
   text-align: center;
   color: #005134;
 }
+.alumini-container{
+  margin-bottom: 5%;
+}
 
 .Alumini_data {
   font-family: "Poppins";
@@ -17,4 +20,15 @@
   color: #005134;
   padding: 5px;
   text-align: center;
+}
+.alumni-testimonial-heading h1{
+  font-weight: 300;
+  font-size: 28px;
+  color: #005134;
+  line-height: 19px;
+  margin-top: 19px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3%;
 }
